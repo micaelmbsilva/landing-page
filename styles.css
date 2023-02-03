@@ -10,3 +10,161 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header {
+  background-color: var(--darkblue);
+  color: white;
+}
+
+.header .container {
+  padding-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--darkgray);
+  font-weight: bold;
+}
+
+.header .container .navbar ul {
+  display: flex;
+}
+
+.header .container .navbar li {
+  margin-right: 10px;
+}
+
+.header .description {
+  padding: 75px 0px;
+  display: flex;
+}
+
+.header .description .img {
+  background-color: #a0a0a0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header .description .text {
+  flex: 1;
+}
+
+.description .text h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: var(--darkgray);
+}
+
+.description .text p {
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.description .signup {
+  border: none;
+  padding: 5px 25px;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 5px;
+}
+
+.main .container {
+  padding: 75px 0px;
+  text-align: center;
+}
+.main .container h1 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: var(--darkblue);
+  margin-bottom: 10px;
+}
+
+.main .container .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .container .box {
+  flex-basis: 100px;
+  padding: 20px;
+}
+
+.main .container .box img {
+  width: 100%;
+  border: 2px solid var(--blue);
+  height: 100px;
+  border-radius: 10px;
+}
+
+.quote .container {
+  background-color: var(--gray);
+  padding: 75px 30px;
+}
+
+.quote .container h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: var(--darkblue);
+}
+.quote .container h2 {
+  display: flex;
+  justify-content: end;
+}
+
+.call-to-action .container {
+  padding: 30px;
+  margin: 75px auto;
+  background-color: var(--blue);
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.call-to-action .container .description {
+  flex: 2;
+}
+
+.call-to-action .container .button button {
+  padding: 5px 25px;
+  background-color: var(--blue);
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+footer .container {
+  background-color: var(--darkblue);
+  color: white;
+  text-align: center;
+  padding: 25px 30px;
+}
